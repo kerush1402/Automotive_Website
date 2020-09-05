@@ -1,0 +1,205 @@
+.body{
+	color: white;
+	padding:0;
+	background-color: black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	
+	/*min-width: 500px;
+	min-height: 500px;
+	max-height: 1200px;
+	max-width: 1200px;*/
+}
+
+*{
+	text-decoration: none;
+}
+
+/*----------------------------- header -----------------------------*/
+
+.header{
+	margin-top: 10px;
+	margin-left:40px;
+	border-bottom: 4px grey solid;
+}
+
+/*logo*/
+.logo{
+	margin-left: 30px;
+	width:200px;
+	height:150px;
+	margin-right: 70px;
+}
+
+/*login and checout*/
+
+
+.topright{
+	margin-top: 25px;
+	width: 300px;
+	height: 75px;
+	float:right;
+	padding-left: 50px;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+.tooltip{
+	position: relative;
+	z-index: 20;
+	text-decoration: none;
+	color: blue;
+}
+
+.tooltip span{
+	display: none;
+}
+
+.tooltip:hover{
+	z-index:25;
+}
+
+.tooltip:hover span{
+	display: block;
+	width:100px;
+	text-align: center;
+	height: 15px;
+	padding: 5px;
+	color: black;
+	background-color: #33BBFF;
+	font-size: 15px;
+	text-decoration: none;
+	position: absolute;
+	border-radius: 4px;
+	top:25px;
+	left:-6px;
+}
+
+.topright a{
+	margin-right: 60px;
+}
+
+.user{
+	padding-left: 25px;
+	width:50px;
+	height:50px;
+}
+
+.checkout{
+	margin-bottom: 7px;
+	padding-left: 32px;
+	width:30px;
+	height:30px;
+}
+
+/*-------------------------------- navigation ---------------------------------- */
+
+html {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#mainnav {
+  position: absolute;
+  font-family: 'Roboto Condensed', sans-serif;
+  z-index: 1;
+}
+
+#mainnav li {
+  margin: 15px 0;
+  left: -550px;
+  position: relative;
+  display: none;
+}
+
+#mainnav a {
+  color: #fff;   
+  text-decoration: none;
+  font-size: 1.4em;
+} 
+
+ul li{
+  list-style: none;
+  margin-top: -50px;          
+}
+
+.gap{
+	margin-top: -25px;
+}
+
+.hamb {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 2.5em;
+  z-index: 1;
+}
+
+.hamb a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  min-height: 600px;
+}
+
+#bubble {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  position: fixed;
+  display: none;
+  z-index: 1;
+  background: rgba(0, 0, 0, .5);
+}
+
+
+/*----------------------------- gallery -----------------------------*/
+
+
+.container{
+	width:960px;
+	min-height: 500px;
+	margin:30px auto 0;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+	
+}
+
+.container .box{
+	
+	position: relative;
+	width:300px;
+	height:300px;
+	border-radius: 7px;
+	margin:10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.container .box .imgBox{
+	position: relative;
+	overflow: hidden;
+	border: white solid 2px;
+	border-radius: 7px;
+	background-color: white;
+}
+
+.container .box .imgBox img{
+	width: 100%;
+	height: 100%;
+	transition : transform 2s;
+}
+
+.container .box:hover .imgBox img{
+	transform :scale(1.2);
+	cursor: pointer;
+}
+
+.box:hover{
+	border: solid 3px  #33BBFF;
+}

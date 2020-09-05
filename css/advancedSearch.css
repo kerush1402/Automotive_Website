@@ -1,0 +1,125 @@
+.pc-tab>input,
+.pc-tab section>div{
+	display: none;
+}
+
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2,
+#tab3:checked ~ section .tab3{
+	display: block;
+}
+
+/**,*:before, *:after{
+	box-sizing: border-box;
+}*/
+
+body{
+	background-color: black;
+	font-family: 'Lato',sans-serif;
+	color: white;
+}
+
+.h1{
+	margin: 40px auto;
+	text-align: center;
+	font-size: 55px;
+	color: #33BBFF;
+	font-family: 'Magneto';
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #33BBFF;
+}
+
+.pc-tab{
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 10%;
+}
+
+.pc-tab ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.pc-tab ul li label{
+	float:left;
+	padding:15px 25px;
+	border:1px solid #ddd;
+	border-bottom: 0;
+	background-color: lightgrey;
+	color:black;
+}
+
+.pc-tab ul li label:hover{
+	background-color: #33BBFF;
+}
+
+.pc-tab ul li label:active{
+	background-color: #33BBFF;
+}
+
+.pc-tab ul li:not(:last-child) label{
+	border-right-width: 1px;
+}
+
+.pc-tab section{
+	clear: both;
+}
+
+.pc-tab section div{
+	padding: 20px;
+	width:100%;
+	border:1px solid #ddd;
+	background-color: #fff;
+	line-height: 1.5em;
+	letter-spacing: 0.5px;
+	color: black;
+}
+
+
+.pc-tab section div h2{
+	margin:0;
+	letter-spacing: 1px;
+	color: black;
+}
+
+#tab1:checked ~ nav .tab1 label,
+#tab3:checked ~ nav .tab3 label,
+#tab2:checked ~ nav .tab2 label{
+	background-color: #fff;
+	color: #111;
+	position: relative;
+}
+
+#tab1:checked ~ nav .tab1 label:after,
+#tab3:checked ~ nav .tab3 label:after,
+#tab2:checked ~ nav .tab2 label:after{
+	content: "";
+	display :block;
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	background-color: #fff;
+	left:0;
+	bottom:-1px;
+}
+
+
+.btn {
+	width:50%;
+	margin-left:25%;
+	background:none;
+	border:2px solid #33BBFF;
+	color: white;
+	padding:5px;
+	font-size: 18px;
+	cursor: pointer;
+	color: black;
+	border-radius: 2px;
+}
+
+
+
+
+

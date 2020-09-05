@@ -1,0 +1,81 @@
+<?
+
+if(isset($_POST['signUp-btn'])){
+
+	include_once 'connectDB.php';
+
+
+
+	$fname = trim(mysql_real_escape_string( $_POST["fname"]));
+	$lname =trim(mysql_real_escape_string($_POST["lname"]));
+
+	$id =trim(mysql_real_escape_string($_POST["id"]));
+	$email =trim(mysql_real_escape_string( $_POST["email"]));
+
+	$username = trim(mysql_real_escape_string($_POST["username"]));
+	$pass = mysql_real_escape_string($_POST["pass"]));
+	$checkPass =trim(mysql_real_escape_string( $_POST["checkPass"]));
+
+
+	if(empty($fname) || empty($lname)){
+		echo 'Information missing! Please ensure you fill all fields';
+		exit();
+	}else{
+
+		if(!preg_match("/^[a-zA-Z]+$/", $fname) || !preg_match("/^[a-zA-Z]+$/", $lname)){
+			echo "Invalid Name! Only non-numeric characters";
+			exit();
+		}else{
+
+			$num_length = strlen((string)$id);
+			if(!preg_match("/^[0-9]+$/", $id) || $num_length>13 || $num_length<13 ){
+				echo "Invalid ID Number! Must be exactly 13 characters long";
+				exit();
+			}else{
+
+				$at = '@';
+				$ext = '.com';
+				if (! strpos($email, $at) || !strpos($email, $ext)) {
+					echo("Your email is not a valid email address");
+				} else {
+
+					$sql= "SELECT * FROM users where username='$username'";
+					$result = mysql_query($sql);
+					$resultCheck = mysql_num_rows($result);
+
+					$numLenUser = strlen($username);
+					$numLenPass = strlen($pass);
+
+					if($numLenUser <7 || $numLenPass <7){
+						echo 'Username and password must not be less than 7 characters long!';
+						exit();
+					}else{
+
+						if($resultCheck>0 || $results[0][0]=="admin"){
+							print "Username already taken!";
+						}else{
+
+							if($pass !== $checkPass){
+								print "Password did not match!";
+								exit();
+							}else{
+
+								$sql = "insert into users (username,pwd,fname,lname,id,email) values ('$username','$pass','$fname','$lname',$id,'$email')";
+								$result = mysql_query($sql);
+								header("Location: loginPage.php?signUp=sucess.php");
+
+
+
+							}
+						}
+					}
+				}
+			}
+
+		}
+
+
+	}
+}else{
+	header("Location: signUp.php");
+}

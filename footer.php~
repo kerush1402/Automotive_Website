@@ -1,0 +1,51 @@
+
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<div class="page-wrapper"></div>
+	
+	<div class="footer">
+		<div class="footer-content">
+			<div class="footer-section about">
+				<h1 class="logo-text"><span>Autoplicity</span></h1>
+				<p>
+					Autoplicity is a fictional website that is designed for our COMP203 semester project. In this website we sell brand new cars, brand new parts as well as provide a platform for the selling of our consumers second hand parts and cars
+				</p>
+				<div class="contact">
+					<p>Contact our CEO of Autoplicity for further info:</p>
+					<p> &#x260E; 0813711931</p>
+					<p> &#x2709; yastilgokul@icloud.com</p>
+				</div>
+				
+			</div>
+			<div class="footer-section links">
+				<h2>Socialize</h2>
+				<br>
+				<a href="https://www.facebook.com/autoplicity1/" class="fa fa-facebook"></a>
+				<a href="https://www.instagram.com/autoplicity203/" class="fa fa-instagram"></a>
+				<a href="https://twitter.com/Autoplicity1" class="fa fa-twitter"></a>
+				<a href="https://za.pinterest.com/autoplicity203/" class="fa fa-pinterest"></a>
+			</div>
+			<div class="footer-section contact-form">
+				<h2>Contact Us</h2>
+				<br>
+				<form action="footer.html" method="post">
+					<input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+					<br>
+					<br>
+					<textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+					<br>
+					<br>
+					<button type="submit" class="btn btn-big">
+					Send
+					</button>
+				</form>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			&copy; Autoplicity | Designed by Kerushan, Taryn, Waqiah, Akheil
+		</div>
+	</div>
+
+</body>
+</html>

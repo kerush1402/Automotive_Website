@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Student</Author>
+  <LastAuthor>Student</LastAuthor>
+  <Created>2019-08-30T14:06:15Z</Created>
+  <LastSaved>2019-09-01T10:41:06Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>32767</WindowHeight>
+  <WindowWidth>2370</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="39" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="267.75"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">price</Data></Cell>
+    <Cell><Data ss:Type="String">make</Data></Cell>
+    <Cell><Data ss:Type="String">info</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P1-1</Data></Cell>
+    <Cell><Data ss:Type="Number">375</Data></Cell>
+    <Cell><Data ss:Type="String">AGS</Data></Cell>
+    <Cell><Data ss:Type="String">Single silver tail piece</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P1-2</Data></Cell>
+    <Cell><Data ss:Type="Number">430</Data></Cell>
+    <Cell><Data ss:Type="String">AGS</Data></Cell>
+    <Cell><Data ss:Type="String">Single black tail piece</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P1-3</Data></Cell>
+    <Cell><Data ss:Type="Number">625</Data></Cell>
+    <Cell><Data ss:Type="String">NGS</Data></Cell>
+    <Cell><Data ss:Type="String">Single blue tail piece oval</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P1-4</Data></Cell>
+    <Cell><Data ss:Type="Number">2450</Data></Cell>
+    <Cell><Data ss:Type="String">NGS</Data></Cell>
+    <Cell><Data ss:Type="String">Double carbon tail piece</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P1-5</Data></Cell>
+    <Cell><Data ss:Type="Number">550</Data></Cell>
+    <Cell><Data ss:Type="String">NGS</Data></Cell>
+    <Cell><Data ss:Type="String">Single blue tail piece</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P1-6</Data></Cell>
+    <Cell><Data ss:Type="Number">800</Data></Cell>
+    <Cell><Data ss:Type="String">NGS</Data></Cell>
+    <Cell><Data ss:Type="String">Double black tail piece</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P1-7</Data></Cell>
+    <Cell><Data ss:Type="Number">1250</Data></Cell>
+    <Cell><Data ss:Type="String">NGS</Data></Cell>
+    <Cell><Data ss:Type="String">Single carbon tail piece</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P2-1</Data></Cell>
+    <Cell><Data ss:Type="Number">3259</Data></Cell>
+    <Cell><Data ss:Type="String">BBS</Data></Cell>
+    <Cell><Data ss:Type="String">Black and red. Made for max racing performance </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P2-2</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">XXR</Data></Cell>
+    <Cell><Data ss:Type="String">Bronze whel rim with bolt pattern</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P2-3</Data></Cell>
+    <Cell><Data ss:Type="Number">4200</Data></Cell>
+    <Cell><Data ss:Type="String">TRD</Data></Cell>
+    <Cell><Data ss:Type="String">Split 5 special edit. Mate Black</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P2-4</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="String">BBS</Data></Cell>
+    <Cell><Data ss:Type="String">Stylish and fabulous</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P2-5</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="String">UP100</Data></Cell>
+    <Cell><Data ss:Type="String">Staggered design for ultimate performance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P2-6</Data></Cell>
+    <Cell><Data ss:Type="Number">4000</Data></Cell>
+    <Cell><Data ss:Type="String">Marquee</Data></Cell>
+    <Cell><Data ss:Type="String">Staggered design for sport racing cars</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P3-1</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="String">KYB</Data></Cell>
+    <Cell><Data ss:Type="String">High gas pressure disgn provides instant, extra control</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P3-2</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="String">KYB</Data></Cell>
+    <Cell><Data ss:Type="String">Gas shock. Helps restore original handling and control.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P3-3</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="String">KYB</Data></Cell>
+    <Cell><Data ss:Type="String">Rubber boot to protect shaft and keep debis away from the seal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P3-4</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="String">Fox Racing </Data></Cell>
+    <Cell><Data ss:Type="String">Aluminum. Performance series </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P3-5</Data></Cell>
+    <Cell><Data ss:Type="Number">10120</Data></Cell>
+    <Cell><Data ss:Type="String">Fox Racing </Data></Cell>
+    <Cell><Data ss:Type="String">Ehance your racing vehicle with the best performance shock absorber</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P3-6</Data></Cell>
+    <Cell><Data ss:Type="Number">20200</Data></Cell>
+    <Cell><Data ss:Type="String">KW</Data></Cell>
+    <Cell><Data ss:Type="String">Coil overs. Adjustable technology rebound and compression dampening</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P3-7</Data></Cell>
+    <Cell><Data ss:Type="Number">18000</Data></Cell>
+    <Cell><Data ss:Type="String">KW</Data></Cell>
+    <Cell><Data ss:Type="String">Optimally adjustable at the factory soorty and comfortable dampening technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P4-1</Data></Cell>
+    <Cell><Data ss:Type="Number">705</Data></Cell>
+    <Cell><Data ss:Type="String">HELLA</Data></Cell>
+    <Cell><Data ss:Type="String">Haolgen conversion headlamps </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P4-2</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="String">HELLA</Data></Cell>
+    <Cell><Data ss:Type="String">Razor sharp cut-off on low beam. Tempered Optical glass lens with polished alumininum feflector</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P4-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">Anzo</Data></Cell>
+    <Cell><Data ss:Type="String">Projector headlight set. Clear lens. Black housing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P4-4</Data></Cell>
+    <Cell><Data ss:Type="Number">1900</Data></Cell>
+    <Cell><Data ss:Type="String">Anzo</Data></Cell>
+    <Cell><Data ss:Type="String">Proector beam with U-Bar halo. Black Hosuing. Clear Lens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P4-5</Data></Cell>
+    <Cell><Data ss:Type="Number">3200</Data></Cell>
+    <Cell><Data ss:Type="String">Anzo</Data></Cell>
+    <Cell><Data ss:Type="String">Thermo-Hydrometer and rain resistant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P4-6</Data></Cell>
+    <Cell><Data ss:Type="Number">750</Data></Cell>
+    <Cell><Data ss:Type="String">CG</Data></Cell>
+    <Cell><Data ss:Type="String">Bings a different appearance to vehicle and great for show use </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P4-7</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="String">CG</Data></Cell>
+    <Cell><Data ss:Type="String">Chfrome housing. Smoked lens. Clear reflector</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P5-1</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="String">Duralast</Data></Cell>
+    <Cell><Data ss:Type="String">Powers[orts battery. Sealed non-spoilable: can be mounted in any position</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P5-2</Data></Cell>
+    <Cell><Data ss:Type="Number">650</Data></Cell>
+    <Cell><Data ss:Type="String">Duralast</Data></Cell>
+    <Cell><Data ss:Type="String">Powersport battery. Maintance free. Factory Sealed. Vibration resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P5-3</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="String">Optima</Data></Cell>
+    <Cell><Data ss:Type="String">Maintaince free. One year warranty. Leak free</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P5-4</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="String">Die Hard</Data></Cell>
+    <Cell><Data ss:Type="String">Maintenance free. Non-spoilable. Construction design with safety valve for explosion prevention</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P5-5</Data></Cell>
+    <Cell><Data ss:Type="Number">550</Data></Cell>
+    <Cell><Data ss:Type="String">Shurikien</Data></Cell>
+    <Cell><Data ss:Type="String">Battery fits in variety of applications, ranging from motorcycles,ATVs, motor vehicles,jetskis and more</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P6-1</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="String">Auto Meter</Data></Cell>
+    <Cell><Data ss:Type="String">Tradtional incandescent lighting illuminations around perimeter of dial. Mechnical instruments provide accurate readings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P6-2</Data></Cell>
+    <Cell><Data ss:Type="Number">680</Data></Cell>
+    <Cell><Data ss:Type="String">Auto Meter</Data></Cell>
+    <Cell><Data ss:Type="String">No electrical system required for operation. Accurate readings. Illumination around dial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P6-3</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="String">Glow Shift</Data></Cell>
+    <Cell><Data ss:Type="String">7 colors available. Mechanical. Illuminated red needle and low profile tinted lens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P6-4</Data></Cell>
+    <Cell><Data ss:Type="Number">480</Data></Cell>
+    <Cell><Data ss:Type="String">Glow Shift</Data></Cell>
+    <Cell><Data ss:Type="String">7 colors available. Turbo boost gauge reads vehicle boost levels from 0 to 60 PSI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P6-5</Data></Cell>
+    <Cell><Data ss:Type="Number">450</Data></Cell>
+    <Cell><Data ss:Type="String">Pro Sport</Data></Cell>
+    <Cell><Data ss:Type="String">Red and Blue Evo Series. Universal compatability. Reads -30 to 35 PSI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">P6-6</Data></Cell>
+    <Cell><Data ss:Type="Number">380</Data></Cell>
+    <Cell><Data ss:Type="String">Spec-D</Data></Cell>
+    <Cell><Data ss:Type="String">Vaccu, Gauage Kit Pointer &amp; LED Digital Readouts. Reads  boost levels from -30 to 30PSI. Monitors car's compression</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
